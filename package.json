@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "prettier": "^2.4.1"
+  },
+  "scripts": {
+    "fmt": "prettier --config .prettierrc . --write",
+    "fmt:check": "prettier --config .prettierrc . --check"
+  }
+}
