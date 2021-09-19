@@ -2,5 +2,26 @@
   "name": "@dotkomonline/ds2",
   "version": "0.1.0",
   "description": "Web Component implementation of ds2",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "dependencies": {
+    "@stencil/core": "^2.7.0"
+  },
+  "main": "dist/index.cjs.js",
+  "module": "dist/custom-elements/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/custom-elements/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/ds2/ds2.esm.js",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
 }
