@@ -11,5 +11,8 @@ node_modules/
 .env
 
 # Stencil generated sources
+packages/ds2/src/components.d.ts
+packages/ds2/src/components/**/readme.md
+
 packages/ds2-react/src/react-component-lib/
 packages/ds2-react/src/components.ts
