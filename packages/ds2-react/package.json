@@ -1,0 +1,9 @@
+{
+  "name": "@dotkomonline/ds2-react",
+  "version": "0.1.0",
+  "description": "React implementation of ds2",
+  "license": "MIT",
+  "dependencies": {
+    "@dotkomonline/ds2": "^0.1.0"
+  }
+}
