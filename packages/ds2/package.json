@@ -22,6 +22,8 @@
   "collection:main": "dist/collection/index.js",
   "unpkg": "dist/ds2/ds2.esm.js",
   "devDependencies": {
+    "@stencil/react-output-target": "^0.1.0",
+    "@stencil/sass": "^1.5.1",
     "typescript": "^4.4.3"
   }
 }
